@@ -1,6 +1,6 @@
 {
-    "name": "weboxlt/esms-api-v1-php-sdk",
-    "description": "eSMS API v1 PHP",
+    "name": "weboxlt/lutex-api-v1-php-sdk",
+    "description": "lutex API v1 PHP",
     "homepage": "https://github.com/weboxlt",
     "license": "MIT",
     "keywords": ["lutex", "esms"],
