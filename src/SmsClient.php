@@ -63,10 +63,19 @@ class SmsClient {
 	}
 
 	/**
+	 * Get SMS handler
 	 * @return \Api\Sms
 	 */
 	public function sms() {
 		return new Api\Sms($this->client, $this);
+	}
+	
+	/**
+	 * Get logs handler
+	 * @return \Api\Logs
+	 */
+	public function logs() {
+		return new Api\Logs($this->client);
 	}
 
 }
