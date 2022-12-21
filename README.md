@@ -52,6 +52,8 @@ try {
     $logsHandler->setSentSince('2022-12-21');
     $logsHandler->setSentUntil('2022-12-25');
     $logsHandler->setGeneralStatus($logsHandler::STATUS_EXPIRED);
+
+    $data = $logsHandler->get();
 } catch (\Exception $e) {
     print( $e->getMessage());
 }
